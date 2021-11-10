@@ -143,14 +143,11 @@ display: none;
 }
 
 .home{
-/* display: flex;
-flex-wrap: wrap;
-gap:1.5rem;
-align-items: center; */
+
 background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/images/bgimages.jpg);
 box-shadow: 0.2px 0.2px black;
 background-color: white;
-/* background-size: cover; */
+
 background-position: center;
 background-size: 100%;
 width: 100%;
