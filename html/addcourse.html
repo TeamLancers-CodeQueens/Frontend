@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course | CodeQueen</title>
+    <link rel="stylesheet" href="../style/addcourse.css">
+</head>
+<body>
+    <div class="side-menu">
+        <div class="student-name">
+            <h1>Instructor</h1>
+        </div>
+        <ul>
+            <ul>
+				<li><img src="../icons/dashbord.png" alt="" style="height: 30px; width: 30px;">&nbsp; Dashboard </li>
+				<li><img src="../icons/course.png" alt="" style="height: 30px; width: 30px;"><a href="courses.html" >My Courses</a></li>
+				<li><img src="../icons/profile.png" alt="" style="height: 30px; width: 30px;"><a href="profile.html" >Profile</a></li>
+				<li><img src="../icons/chat.png" alt="" style="height: 30px; width: 30px;">&nbsp;Chat</li><br><br><br>
+				<li><img src="../icons/settings.png" alt="" style="height: 30px; width: 30px;">&nbsp;Settings</li>
+				<li><img src="../icons/logout.png" alt="" style="height: 30px; width: 30px;">&nbsp;LogOut</li>
+			</ul>
+        </ul> 
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><img src="../icons/search.png" alt=""></button>
+                </div>
+                <div class="user">
+                    <a href="#" class="btn"> View Student List</a>
+                    <div class="img-case">
+                        <img src="../img/avatar.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>   
+   
+
+    <form id="addcourseform" class="form">
+		<div class="form-control">
+			<label for="CourseName" class="col-sm-2 control-label">Course Name</label>
+			<input type="text" placeholder="javascript" id="courseName" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+        <div class="form-control">
+			<label for="Name">Instructor Name</label>
+			<input type="text" id="instructorName"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" placeholder="emily@gmail.com" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Course description</label>
+			<input type="text" id="description"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="outline">Course Outline</label>
+			<input type="outline" id="outline"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+        <div class="form-control">
+			<label for="material">Course material</label>
+			<input type="text" id="material" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+        <div class="form-control">
+			<label for="refs">References</label>
+			<input type="text" id="references" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+        <div class="form-control">
+			<label for="phone">Contact</label>
+			<input type="text" placeholder="ooo-ooo-oooo" id="phone" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+       
+        
+		<button type="submit">Submit</button>
+	</form>
+</div>
+<script src="../javascript/addcourse.js"></script>
+</body>
+</html>

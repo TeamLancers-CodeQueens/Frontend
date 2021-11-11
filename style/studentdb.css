@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1,
+h2{
+    color: black;
+}
+
+.btn{
+    background: darkorange;
+    color:white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.btn:hover{
+    color: darkorange;
+    background: white;
+    padding: 3px 8px;
+    border: 2px solid darkorange;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-bottom: 2px solid #999;
+}
+
+.card{
+    background-color: white;
+    width: 50px;
+    height: 90px;
+}
+
+.side-menu{
+    position: fixed;
+    background-color: darkorange;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu .student-name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu li{
+    font-size: 24px;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu li:hover{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    background: #f1f1f1;
+}
+
+.container .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw; 
+    height: 10vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+}
+
+.container .header .nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.container .header .nav .search{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.container .header .nav .search input[type=text]{
+    border: none;
+    background: white;
+    padding: 10px;
+    width: 50%;
+}
+
+.container .header .nav .search button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .header .nav .search button img{
+    width: 30px;
+    height: 30px;
+
+}
+.container .header .nav .user{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header .nav .user .img-case{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.container .header .nav .user .img-case img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .content{
+    position: relative;
+    margin-top: 10vh;
+    min-height: 90vh;
+}
+
+.container .content .content-2{
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container .content .content-2 .course-overview{
+    min-height:70vh;
+    flex: 5;
+    background: white;
+    margin: 50px 25px 25px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0px rgba(0, 0, 0, 0.19);
+}
+
+.container .content .content-2 .course-overview .box{
+    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background:white;
+    width: 220px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 140px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.html{
+    background-image: url('../img/html.png');
+}
+
+.css{
+    background-image: url('../img/css.png');
+}
+
+.javascript{
+    background-image: url('../img/javascript.png');
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 10px 40px;
+}
+
+.container .content .content-2 .Upcoming-events{
+    flex: 2;
+    background: white;
+    min-height: 70vh;
+    margin: 50px 25px 25px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0px rgba(0, 0, 0, 0.19);
+}
+
+
